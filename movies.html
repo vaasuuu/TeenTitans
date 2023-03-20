@@ -1,0 +1,130 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies - TitanMovies</title>
+    <!--Use of style sheets for desiging-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Images/logo.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <!--Logo of the Website-->
+    <div class="header">
+        <hr id="hr2">
+        <div class="logo">
+            <a href="index.html">
+                <img src="Images/logo.jpg">
+            </a>
+        </div>
+        
+        <div class="logotitle">
+            <a href="index.html">
+                <h2>TitanMovies</h2>
+            </a>
+        </div>
+        <!--Navigation bar of different pages-->
+        <div class="navi">
+            <ul>
+                <li><a href="index.html" id="a1">Home</a></li>
+                <li><a href="movies.html" id="a2">Movies</a></li>
+                <li><a href="series.html" id="a3">Series</a></li>
+                <li><a href="about.html" id="a4">About</a></li>
+                <li><a href="contact.html" id="a5">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="search">
+            <input type="text" placeholder="Search Your Favourite Movies" id="searchtext" onkeypress="return yourFunctionName(event)">
+            <img src="Images/search-icon.png" id="search-icon" onclick="search()">
+        </div>
+        
+        <img src="Images/moon.png" id="lmdm" onclick="darkmode()">
+
+    </div>
+    <hr class="hr1">
+
+    <br>
+    <br>
+    <!--Movies list with their download links-->
+    <p class="movie_series">Movies</p>
+    <hr>
+    <hr>
+
+    <div class="main" id="movies">
+
+        <div class="card" id="shazam 2">
+            <img src="Images/1shazam2.jpg" >
+            <a href="https://drive.google.com/uc?export=download&id=1kU26L4KU07b23qTfd8JXvAhzFWE_wjiw" target="_blank"><button class="btn">Download</button></a>
+        </div>
+
+        <div class="card" id="everything everywhere all at once">
+            <img src="Images/2eveything.jpg" >
+            <a href="https://drive.google.com/uc?export=download&id=1y7zvPubr3ND9MXzm0mR9mAnvUHWiTu4P" target="_blank"><button class="btn">Download</button></a>
+        </div>
+
+        <div class="card" id="rrr">
+            <img src="Images/3rrr.jpg" >
+            <a href="https://drive.google.com/uc?export=download&id=1ySPULgpndaVbQ_m2osKdPFDm3_bpblOX" target="_blank"><button class="btn">Download</button></a>
+        </div>
+
+        <div class="card" id="varisu">
+            <img src="Images/4varisu.jpg" >
+            <a href="https://drive.google.com/uc?export=download&id=1ZlbWdnhfgSpS_uiSr5FlTFtjWjl_hVgB" target="_blank"><button class="btn">Download</button></a>
+        </div>
+
+        <div class="card" id="kgf 2">
+            <img src="Images/5kgf2.jpg" >
+            <a href="https://drive.google.com/uc?export=download&id=1PcBx9OAZ-jXtW3hWZztKm4M94YPGhwrx" target="_blank"><button class="btn">Download</button></a>
+        </div>
+
+        <div class="card" id="avengers: endgame">
+            <img src="Images/7.2endgame.jpg" >
+            <a href="https://drive.google.com/uc?export=download&id=1x5lmpZVMm_4RkL7WH9xBxYol1Z13Q-dz" target="_blank"><button class="btn">Download</button></a>
+        </div>
+
+        <div class="card" id="avatar 2">
+            <img src="Images/6avatar2.jpg" >
+            <a href="https://filepress.click/file/639da2fbea517e2d340e86e9" target="_blank"><button class="btn">Download</button></a>
+        </div>
+
+        <div class="card" id="kantara">
+            <img src="Images/7Kantara.jpeg" >
+            <a href="https://vclouds.sbs/mjx2nnlmzgalgnl" target="_blank"><button class="btn">Download</button></a>
+        </div>
+
+        <div class="card" id="avengers infinity war">
+            <img src="Images/8.1infinitywar.jpg" >
+            <a href="https://drive.google.com/uc?export=download&id=1MOEGU4CEgGKnCj5Cb1HLRiB2DPKc-H_k" target="_blank"><button class="btn">Download</button></a>
+        </div>
+
+        <div class="card" id="doctor g">
+            <img src="Images/8doctorg.jpg" >
+            <a href="https://filepress.click/file/6395b1e0e1adedb3043a9a5d" target="_blank"><button class="btn">Download</button></a>
+        </div>
+
+        <div class="card" id="zwigato">
+            <img src="Images/9zwigato.jpg" >
+            <a href="https://drive.google.com/file/d/1QiBVgGk4oMqizovKLiMHb0V4fGZjqWSa/view?usp=sharing" target="_blank"><button class="btn">Download</button></a>
+        </div>
+
+        <div class="card" id="spiderman no way home">
+            <img src="Images/10Spiderman.jpg" >
+            <a href="https://vclouds.sbs/ebkx7zfxeeetc1k" target="_blank"><button class="btn">Download</button></a>
+        </div>
+
+
+        
+        
+    </div>
+    <hr>
+    <hr>
+
+
+<!--Use of javascript-->
+    <script src="movies.js"></script>
+</body>
+
+</html>
